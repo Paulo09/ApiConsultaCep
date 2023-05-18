@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script type="text/javascript" src="apiRest_Cep.js"></script>
+
+	<title>Consulta CEP</title>
+</head>
+<body>
+	<h1>Consulta de CEP</h1>
+	<form>
+		<label for="cep">Digite o CEP:</label>
+		<input type="text" id="cep" name="cep"><br><br>
+		<input type="button" value="Consultar" onclick="consultarCEP()">
+	</form>
+	<p id="logradouro"></p>
+	<p id="bairro"></p>
+	<p id="cidade"></p>
+	<p id="estado"></p>
+</body>
+</html>
