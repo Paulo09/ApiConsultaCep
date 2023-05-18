@@ -16,11 +16,34 @@
 	<form>
 		<label for="cep">Digite o CEP:</label>
 		<input type="text" id="cep" name="cep"><br><br>
-		<input type="button" value="Consultar" onclick="consultarCEP()">
+
+        <div class="row">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <!--<span class="card-title">Card Title</span>-->
+                </div>
+                <div class="card-content">
+                    <ul class="collection">
+                        <li class="collection-item">Logradouro:<p id="logradouro"></p></li>
+                        <li class="collection-item">Bairro:<p id="bairro"></p></li>
+                        <li class="collection-item">Cidade:<p id="cidade"></p></li>
+                        <li class="collection-item">Estado:<p id="estado"></p></li>
+                    </ul>
+                </div>
+                <div class="card-action"> 
+                    <a class="waves-effect waves-light btn" onclick="consultarCEP()">button</a>
+                </div>
+              </div>
+            </div>
+          </div>
 	</form>
-	<p id="logradouro"></p>
-	<p id="bairro"></p>
-	<p id="cidade"></p>
-	<p id="estado"></p>
+	
+
+   
+
+   
+
+    
 </body>
 </html>
